@@ -1,0 +1,21 @@
+.square{
+    background: #4caf50;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 8px;
+  height: 120px;
+  width: 120px;
+  transition: .6s;
+  margin: 20px;
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+}
+
+.square:hover{
+    transform: rotate(360deg);
+    background: orange;
+}
