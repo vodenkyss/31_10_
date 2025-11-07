@@ -14,7 +14,7 @@
 }
 
 .box:first-child {
-  background: #fc0000;
+  outline: 3px solid red;
 }
 
 .box:nth-child(2n) {
